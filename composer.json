@@ -1,0 +1,24 @@
+{
+  "name": "micronic",
+  "description": "MIcro",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0",
+    "ext-json": "*",
+    "doctrine/inflector": "^1.3",
+    "doctrine/dbal": "^2.9"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app",
+      "core\\": "core",
+      "test\\": "tests"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  }
+}
