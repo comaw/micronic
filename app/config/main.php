@@ -9,7 +9,7 @@
 
 return [
     'db'      => [
-        'dbname'   => 'beejee',
+        'dbname'   => 'dbname',
         'user'     => 'root',
         'password' => '',
         'host'     => 'localhost',
